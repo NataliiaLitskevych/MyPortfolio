@@ -1,8 +1,11 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -11,7 +14,6 @@ body {
   background: #050524;
   padding-top: 60px;
 }
-
 
 header {
   position: fixed;
@@ -140,8 +142,8 @@ h2 {
 }
 
 .about-img {
-  width: 400px;
-  height: 350px;
+  width: 350px;
+  height: 500px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
@@ -165,7 +167,6 @@ h2 {
   font-size: 1.1rem;
 }
 
-
 .project-grid {
   display: grid;
   align-items: stretch;
@@ -177,7 +178,6 @@ h2 {
 .project-card {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   background-color: #1a1a2e;
@@ -185,7 +185,7 @@ h2 {
   text-align: center;
   overflow: hidden; 
   min-height: 500px;
-  height: 100%;
+  height: auto;
   
 }
 
@@ -197,7 +197,6 @@ h2 {
 .project-card img {
   display: block;
   margin: 0;
-  /* aspect-ratio: 16/9;  */
   object-fit: cover;
   width: 100%;
   height: 200px;
@@ -208,21 +207,19 @@ h2 {
 .image {
   flex-shrink: 0;
   line-height: 0;
-  /* overflow: hidden;
-  margin: 0;
-  padding: 0; */
-  
 }
 
 .project-modal {
   display: flex;
   flex-direction: column;
   flex: 1;
-  justify-content: space-between;
+  justify-content: flex-start;
+  height: 100%;
   padding: 1.2rem;
   background: #0f1624;
   color: #fff;
-  
+  margin-top: -1px;
+  transition: all 0.5s ease-in-out;
 }
 
 .project-title {
@@ -240,12 +237,40 @@ h2 {
 }
 
 .project-description {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
   font-size: 0.95rem;
   line-height: 1.4;
   margin: 0.5rem 0;
-  max-height: 4.5em;
-  overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.more-text {
+  display: none;
+}
+
+.read-more-btn {
+  align-self: flex-start;
+  margin-top: auto;
+  background: none;
+  border: none;
+  color: #00b4ff;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+.project-description.expanded .more-text {
+  display: inline;
+}
+
+.project-description.expanded .read-more-btn {
+  display: block;
+  margin-top: 10px;
 }
 
 .project-modal .link {
@@ -290,7 +315,7 @@ h2 {
 
 
 .project-grid.show-all-projects .project-card {
-  display: block;
+  display: flex;
 }
 
 
@@ -432,7 +457,7 @@ footer {
 
 @media (max-width: 500px) {
   .project-card {
-    height: 400px;
+    min-height: 400px;
   }
   .project-card img {
     height: 150px;

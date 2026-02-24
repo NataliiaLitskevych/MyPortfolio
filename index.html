@@ -11,7 +11,9 @@
 <body>
   <header>
     <nav aria-label="Main navigation">
-      <div class="logo">Nataliia Litskevych</div>
+      <div class="logo">
+        <a href="#home" style="text-decoration: none; color: inherit;">Nataliia Litskevych</a>
+      </div>
       <ul class="nav-links">
         <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About Me</a></li>
@@ -21,11 +23,10 @@
   </header>
 
   
-  <section class="hero">
+  <section id="home" class="hero">
     <div class="hero-flex">
       <img class="title" src="images/1.avif" alt="Frontend developer illustration" loading="lazy" />
       <div class="hero-text">
-        
         <h1 class="hero-title">NATALIIA LITSKEVYCH</h1>
         <h2 class="hero-title">Frontend Developer</h2>
         <p class="hero-subtitle">React, Redux, JavaScript, Node.js, HTML5, CSS3, GSAP, Figma, API</p>
@@ -37,7 +38,6 @@
     <h2>Projects</h2>
     <div class="project-grid">
 
-      <!-- Project React 1 -->
       <div class="project-card" data-aos="zoom-in">
         <div class="image">
           <img src="images/AuraDesigne.png" alt="Aura Designe Store project screenshot" loading="lazy">
@@ -45,7 +45,11 @@
           <div class="project-modal">
             <h2 class="project-subtitle">Aura Design Store</h2>
             <h3 class="project-title">React | Redux | React Router | JavaScript</h3>
-            <p class="project-description">Aura Design is a modern and minimalist furniture e-commerce web application built with React and Redux Toolkit. It features a sleek user interface, dynamic category filtering, and a fully functional shopping cart system.</p>
+            <p class="project-description">
+                Modern furniture e-commerce built with React and Redux Toolkit. 
+                <span class="more-text">It features dynamic category filtering, a fully functional shopping cart, and a sleek user interface designed for seamless navigation.</span>
+                <button class="read-more-btn">Read more</button>
+            </p>
             <div class="link">
               <a href="https://auradesigne.netlify.app/" target="_blank" rel="noopener noreferrer">
                 &#128279; View demo here
@@ -54,92 +58,26 @@
           </div>
       </div>
 
-       <!-- Project 7 -->
-      <div class="project-card" data-aos="fade-up" data-aos-duration="800">
-        <div class="image">
-          <img src="images/bill.webp" alt="Split a Bill App" loading="lazy">
-        </div>  
-          <div class="project-modal">
-            <h2 class="project-subtitle">Split a bill App</h2>
-            <h3 class="project-title">HTML5 | CSS3 | JavaScript</h3>
-            <p class="project-description">Simple app to split bills between multiple people with real-time calculation.</p>
-            <div class="link">
-              <a href="https://split-bill-nataliia-litskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
-                &#128279; View demo here
-              </a>
-            </div>
-          </div>
-      </div>
-
-      <!-- Project React 2 -->
       <div class="project-card" data-aos="zoom-in">
         <div class="image">
-          <img src="images/RecipeSearch.png" alt="Recipe Search project screenshot" loading="lazy">
+          <img src="images/nutrition.png" alt="Nutrition Analyzer project screenshot" loading="lazy">
         </div>  
-          <div class="project-modal">
-            <h2 class="project-subtitle">Recipe Search</h2>
-            <h3 class="project-title">React | JavaScript | Edamam API | CSS</h3>
-            <p class="project-description">A fast and intuitive recipe search application built with React, powered by the Edamam API to deliver a large and diverse database of recipes.</p>
-            <div class="link">
-              <a href="https://bestrecipesearch.netlify.app/" target="_blank" rel="noopener noreferrer">
-                &#128279; View demo here
-              </a>
-            </div>
+        <div class="project-modal">
+          <h2 class="project-subtitle">Nutrition Analyzer</h2>
+          <h3 class="project-title">React | Edamam API | CSS3</h3>
+          <p class="project-description">
+          A professional tool that provides deep nutritional analysis for any list of ingredients.
+          <span class="more-text">The app calculates total calories, weight, and detailed nutrient breakdowns per ingredient using real-time API integration. Designed with a focus on clean architecture and data accuracy.</span>
+          <button class="read-more-btn">Read more</button>
+          </p>
+          <div class="link">
+            <a href="https://nutrition-analyze.netlify.app/" target="_blank" rel="noopener noreferrer">
+              &#128279; View demo here
+            </a>
           </div>
+        </div>
       </div>
 
-      <!-- Project 1 -->
-      <div class="project-card" data-aos="zoom-in">
-        <div class="image">
-          <img src="images/Project1.webp" alt="Weather App project screenshot" loading="lazy">
-        </div>  
-          <div class="project-modal">
-            <h2 class="project-subtitle">Weather App</h2>
-            <h3 class="project-title">HTML5 | CSS3 | JavaScript | API</h3>
-            <p class="project-description">A responsive weather app that displays real-time weather by city. Features include API integration, dynamic backgrounds, and error messages.</p>
-            <div class="link">
-              <a href="https://weather-app-nataliia-litskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
-                &#128279; View demo here
-              </a>
-            </div>
-          </div>
-      </div>
-
-      <!-- Project React 3 -->
-      <div class="project-card" data-aos="zoom-in">
-        <div class="image">
-          <img src="images/ToDoApp.png" alt="To Do list App screenshot" loading="lazy">
-        </div>  
-          <div class="project-modal">
-            <h2 class="project-subtitle">To Do List App</h2>
-            <h3 class="project-title">React | JavaScript | CSS</h3>
-            <p class="project-description">ToDo React App is a simple and intuitive task management application. Users can add, edit, mark as completed, and delete tasks with ease. The clean UI helps to stay organized and productive every day.</p>
-            <div class="link">
-              <a href="https://app-todolist-nataliia-litskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
-                &#128279; View demo here
-              </a>
-            </div>
-          </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="project-card" data-aos="fade-up" data-aos-duration="800">
-        <div class="image">
-          <img src="images/christmas.webp" alt="Christmas Countdown App" loading="lazy">
-        </div>  
-          <div class="project-modal">
-            <h2 class="project-subtitle">Christmas Countdown</h2>
-            <h3 class="project-title">HTML5 | CSS3 | JavaScript</h3>
-            <p class="project-description">A festive web app counting down to Christmas with holiday-themed design and smooth animations.</p>
-            <div class="link">
-              <a href="https://christmas-countdown-nataliia-litskevy.netlify.app/" target="_blank" rel="noopener noreferrer">
-                &#128279; View demo here
-              </a>
-            </div>
-          </div>
-      </div>
-
-      <!-- Project 3 -->
       <div class="project-card" data-aos="zoom-in">
         <div class="image">
           <img src="images/bakery.jpeg" alt="Bakery landing page" loading="lazy">
@@ -147,7 +85,11 @@
           <div class="project-modal">
             <h2 class="project-subtitle">Bakery site</h2>
             <h3 class="project-title">HTML5 | CSS3 | JavaScript | GSAP</h3>
-            <p class="project-description">Modern landing page for a bakery, emphasizing clean design, engaging visuals, and smooth UX.</p>
+            <p class="project-description">
+              Premium landing page focused on high-end visuals and smooth interactivity.
+              <span class="more-text">Utilizes GSAP for sophisticated scroll-triggered animations and a mobile-first approach to showcase bakery products with an elegant aesthetic.</span>
+              <button class="read-more-btn">Read more</button>
+            </p>
             <div class="link">
               <a href="https://bakery-nataliialitskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
                 &#128279; View demo here
@@ -156,7 +98,66 @@
           </div>
       </div>
 
-      <!-- Project 4 -->
+      <div class="project-card" data-aos="zoom-in">
+        <div class="image">
+          <img src="images/RecipeSearch.png" alt="Recipe Search project screenshot" loading="lazy">
+        </div>  
+          <div class="project-modal">
+            <h2 class="project-subtitle">Recipe Search</h2>
+            <h3 class="project-title">React | JavaScript | Edamam API | CSS</h3>
+            <p class="project-description">
+             A fast recipe finder powered by the Edamam API and React.
+             <span class="more-text">Implements real-time data fetching, advanced filtering by diet/calories, and an intuitive search interface for a smooth culinary experience.</span>
+             <button class="read-more-btn">Read more</button>
+            </p>
+            <div class="link">
+              <a href="https://bestrecipesearch.netlify.app/" target="_blank" rel="noopener noreferrer">
+                &#128279; View demo here
+              </a>
+            </div>
+          </div>
+      </div>
+
+      <div class="project-card" data-aos="zoom-in">
+        <div class="image">
+          <img src="images/Project1.webp" alt="Weather App project screenshot" loading="lazy">
+        </div>  
+          <div class="project-modal">
+            <h2 class="project-subtitle">Weather App</h2>
+            <h3 class="project-title">HTML5 | CSS3 | JavaScript | API</h3>
+            <p class="project-description">
+              Dynamic weather tracking application with real-time API integration.
+              <span class="more-text">Features location-based searching, dynamic background changes based on weather conditions, and precise data visualization using Vanilla JavaScript.</span>
+              <button class="read-more-btn">Read more</button>
+            </p>
+            <div class="link">
+              <a href="https://weather-app-nataliia-litskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
+                &#128279; View demo here
+              </a>
+            </div>
+          </div>
+      </div>
+
+      <div class="project-card" data-aos="zoom-in">
+        <div class="image">
+          <img src="images/ToDoApp.png" alt="To Do list App screenshot" loading="lazy">
+        </div>  
+          <div class="project-modal">
+            <h2 class="project-subtitle">To Do List App</h2>
+            <h3 class="project-title">React | JavaScript | CSS</h3>
+            <p class="project-description">
+              Efficient task management system built to demonstrate React state logic.
+              <span class="more-text">Supports full CRUD operations, task persistence, and a clean, distraction-free UI to help users stay productive throughout the day.</span>
+              <button class="read-more-btn">Read more</button>
+            </p>
+            <div class="link">
+              <a href="https://app-todolist-nataliia-litskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
+                &#128279; View demo here
+              </a>
+            </div>
+          </div>
+      </div>
+
       <div class="project-card" data-aos="zoom-in">
         <div class="image">
           <img src="images/meditation.webp" alt="Meditation App UI" loading="lazy">
@@ -164,7 +165,11 @@
           <div class="project-modal">
             <h2 class="project-subtitle">Meditation App</h2>
             <h3 class="project-title">HTML5 | CSS3 | JavaScript | Responsive Design</h3>
-            <p class="project-description">Calming app with soothing visuals and animations for mindfulness sessions.</p>
+            <p class="project-description">
+              An immersive mindfulness application designed for relaxation and focus.
+              <span class="more-text">Features interactive timers, integrated ambient sounds, and smooth CSS animations to create a calming user experience across all devices.</span>
+              <button class="read-more-btn">Read more</button>
+            </p>
             <div class="link">
               <a href="https://nataliia-litskevych-relaxing.netlify.app/" target="_blank" rel="noopener noreferrer">
                 &#128279; View demo here
@@ -173,70 +178,40 @@
           </div>
       </div>
 
-      <!-- Project 5 -->
       <div class="project-card" data-aos="fade-up" data-aos-duration="800">
         <div class="image">
-          <img src="images/quot.webp" alt="Quotes App screenshot" loading="lazy">
+          <img src="images/bill.webp" alt="Split a Bill App" loading="lazy">
         </div>  
           <div class="project-modal">
-            <h2 class="project-subtitle">Quotes</h2>
+            <h2 class="project-subtitle">Split a bill App</h2>
             <h3 class="project-title">HTML5 | CSS3 | JavaScript</h3>
-            <p class="project-description">Quotes app showcasing curated inspiring quotes in a minimalistic interface.</p>
+            <p class="project-description">
+              A utility tool for quick expense sharing among groups.
+              <span class="more-text">Calculates tips and individual shares in real-time. Built with a focus on clean logic, mobile usability, and a minimalistic interface.</span>
+              <button class="read-more-btn">Read more</button>
+            </p>
             <div class="link">
-              <a href="https://quotes-nataliia-litskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://split-bill-nataliia-litskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
                 &#128279; View demo here
               </a>
             </div>
           </div>
       </div>
 
-      <!-- Project 6 -->
       <div class="project-card" data-aos="fade-up" data-aos-duration="800">
         <div class="image">
-          <img src="images/numbers.avif" alt="Numbers App project" loading="lazy">
+          <img src="images/christmas.webp" alt="Christmas Countdown App" loading="lazy">
         </div>  
           <div class="project-modal">
-            <h2 class="project-subtitle">Numbers App</h2>
-            <h3 class="project-title">HTML5 | CSS3 | Vanilla JS</h3>
-            <p class="project-description">Simple interactive project showcasing DOM manipulation and event handling.</p>
-            <div class="link">
-              <a href="https://numbers-nataliia-litskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
-                &#128279; View demo here
-              </a>
-            </div>
-          </div>
-      </div>
-
-     
-
-      <!-- Project 8 -->
-      <div class="project-card" data-aos="fade-up" data-aos-duration="800">
-        <div class="image">
-          <img src="images/dog.webp" alt="To Do List App" loading="lazy">
-        </div>  
-          <div class="project-modal">
-            <h2 class="project-subtitle">To Do List App</h2>
+            <h2 class="project-subtitle">Christmas Countdown</h2>
             <h3 class="project-title">HTML5 | CSS3 | JavaScript</h3>
-            <p class="project-description">Simple to-do app for managing daily tasks with clean design and smooth UX.</p>
+            <p class="project-description">
+              A festive web application designed to track the time until the holiday season.
+              <span class="more-text">Features a dynamic countdown timer, holiday-themed CSS animations, and a fully responsive layout to bring the Christmas spirit to any device.</span>
+              <button class="read-more-btn">Read more</button>
+            </p>
             <div class="link">
-              <a href="https://todo-list-nataliia-litskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
-                &#128279; View demo here
-              </a>
-            </div>
-          </div>
-      </div>
-
-      <!-- Project 9 -->
-      <div class="project-card" data-aos="fade-up" data-aos-duration="800">
-        <div class="image">
-          <img src="images/quiz.webp" alt="Quiz Game App" loading="lazy">
-        </div>  
-          <div class="project-modal">
-            <h2 class="project-subtitle">Quiz Game</h2>
-            <h3 class="project-title">HTML5 | CSS3 | JavaScript</h3>
-            <p class="project-description">Interactive quiz app with minimalistic UI and fun animations.</p>
-            <div class="link">
-              <a href="https://quiz-nataliia-litskevych.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://christmas-countdown-nataliia-litskevy.netlify.app/" target="_blank" rel="noopener noreferrer">
                 &#128279; View demo here
               </a>
             </div>
@@ -256,12 +231,12 @@
       <div class="about-text">
         <h2 id="typing-about"></h2>
         <div id="about-paragraphs">
-          <p>Hi! I’m Nataliia — a frontend developer passionate about creating modern, interactive, and user-friendly interfaces.</p>
-          <p>I work with HTML, CSS, JavaScript, GSAP, Figma, and APIs. Recently, I’ve started learning mobile development with Flutter.</p>
-          <p>I’m looking for opportunities to grow as a developer and join a creative team.</p>
+          <p>Hi! I’m <strong>Nataliia</strong>, a Frontend Developer dedicated to crafting high-performance and visually engaging web applications.</p>
+          <p>My core expertise is built around the <strong>React ecosystem</strong>, using <strong>Redux Toolkit</strong> for efficient state management and <strong>GSAP</strong> for creating sophisticated, fluid animations. I focus on writing clean, maintainable code that turns complex designs into seamless digital experiences.</p>
+          <p>To better understand the full lifecycle of web development, I am currently expanding my technical toolkit with <strong>Node.js</strong>. I strive to bridge the gap between pixel-perfect <strong>Figma</strong> mockups and robust frontend architecture.</p>
         </div>
       </div>
-      <img class="about-img" src="images/3.webp" alt="Nataliia Litskevych photo" loading="lazy" />
+      <img class="about-img" src="images/MyPhoto.jpeg" alt="Nataliia Litskevych photo" loading="lazy" />
     </div>
   </section>
 

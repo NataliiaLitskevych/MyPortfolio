@@ -10,6 +10,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  document.querySelectorAll('.read-more-btn').forEach(button => {
+  button.addEventListener('click', function() {
+    const parent = this.parentElement;
+    parent.classList.toggle('expanded');
+    
+    if (parent.classList.contains('expanded')) {
+      this.textContent = 'Show less';
+    } else {
+      this.textContent = 'Read more';
+    }
+  });
+});
+
  
   if (typeof gsap !== 'undefined') {
     gsap.from(".hero-flex .title", { opacity: 0, x: -50, duration: 2, ease: "power2.out" });

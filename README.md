@@ -24,7 +24,7 @@ It includes:
 ---
 
 ## 📸 Preview
-[![Portfolio Screenshot](./preview.png)](https://myportfolio-nataliia-litskevych.netlify.app/)
+[![Portfolio Screenshot](./Preview.png)](https://myportfolio-nataliia-litskevych.netlify.app/)
 
 
 ---

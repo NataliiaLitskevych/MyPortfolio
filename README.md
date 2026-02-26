@@ -7,8 +7,12 @@ This project reflects my focus on clean architecture, smooth user experience, an
 
 ## 🚀 Live Demo
 
-👉 **View the Portfolio:**  
-https://myportfolio-nataliia-litskevych.netlify.app
+👉 [**View the Portfolio:**](https://myportfolio-nataliia-litskevych.netlify.app)
+
+## 📸 Preview
+<p align="center">
+  <img src="./preview.png" alt="Portfolio Preview" width="400">
+</p>
 
 ---
 

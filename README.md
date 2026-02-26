@@ -1,53 +1,112 @@
 # 🌐 Personal Portfolio
 
-Welcome to my personal portfolio website!  
-This project highlights my **frontend development skills, projects, and design approach** with a focus on clean UI, responsive layout, and smooth animations.
+A modern, responsive portfolio website built to showcase my frontend development skills, projects, and design approach.  
+This project reflects my focus on clean architecture, smooth user experience, and visually engaging interfaces.
 
 ---
 
-## ✨ About the Project
-The portfolio is designed to showcase my work as a **Frontend Developer**.  
-It includes:
-- A hero section with introduction  
-- A projects showcase with live demos  
-- An about me section highlighting skills and background  
-- Contact form and social links for easy communication  
+## 🚀 Live Demo
+
+👉 **View the Portfolio:**  
+https://myportfolio-nataliia-litskevych.netlify.app
+
+---
+
+## 📌 Project Overview
+
+This portfolio demonstrates my approach to frontend development — combining structured code, responsive layouts, and performance-focused implementation.
+
+The website is designed with:
+- Clear visual hierarchy
+- Mobile-first responsive layout
+- Smooth scroll-based animations
+- Clean and maintainable code structure
+
+---
+
+## ✨ Key Features
+
+- 🎯 **Hero Section** – Animated introduction and personal branding  
+- 🗂️ **Projects Showcase** – Interactive project cards with live demos  
+- 👩‍💻 **About Section** – Technical skills and professional background  
+- 📬 **Contact Section** – Easy communication with social links  
+- 🎬 **Smooth Animations** – Scroll-triggered transitions using GSAP & AOS  
+- 📱 **Fully Responsive Design** – Optimized for all screen sizes  
 
 ---
 
 ## 🛠️ Tech Stack
-- **HTML5** – semantic structure  
-- **CSS3** – modern styling & responsive design  
-- **JavaScript (ES6+)** – interactivity  
-- **GSAP** & **AOS** – animations  
+
+- **HTML5** – Semantic and accessible markup  
+- **CSS3** – Flexbox, Grid, Media Queries  
+- **JavaScript (ES6+)** – Interactivity and DOM manipulation  
+- **GSAP** – Advanced animation control  
+- **AOS (Animate On Scroll)** – Scroll-based animation effects  
+- **Netlify** – Deployment and CI/CD  
 
 ---
 
-## 📸 Preview
-[![Portfolio Screenshot](./Preview.png)](https://myportfolio-nataliia-litskevych.netlify.app/)
+## 🧠 Technical Highlights
 
+- Structured project architecture  
+- Reusable animation timelines with GSAP  
+- Responsive layout using modern CSS techniques  
+- Clean separation of concerns (HTML / CSS / JS)  
+- Performance-conscious implementation  
 
 ---
 
-## 🔗 Live Demo
-👉 View My Portfolio: https://myportfolio-nataliia-litskevych.netlify.app
+## 📂 Project Structure
 
-👩‍💻 Author
+```
+/portfolio
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│── images/
+```
 
-Nataliia Litskevych
-Frontend Developer | Passionate about clean code, design, and building user-friendly web experiences.
+---
 
-📫 Connect with me:
+## ⚙️ Installation & Setup
 
-👩‍💻 Author
+1. Clone the repository:
+   ```
+   git clone https://github.com/NataliiaLitskevych/your-repo-name.git
+   ```
 
-Nataliia Litskevych
-Frontend Developer | Passionate about clean code, design, and building user-friendly web experiences.
+2. Navigate to the project folder:
+   ```
+   cd your-repo-name
+   ```
 
-📫 Connect with me:
+3. Open `index.html` in your browser  
+   or use Live Server in VS Code.
 
-LinkedIn
-https://www.linkedin.com/in/nataliia-litskevych
+---
 
-GitHub
+## 🚧 Future Improvements
+
+- Convert to React-based architecture  
+- Add dark/light theme toggle  
+- Improve accessibility (ARIA roles & contrast optimization)  
+- Add project filtering functionality  
+- Integrate backend-powered contact form  
+
+---
+
+# 👩‍💻 Author
+
+**Nataliia Litskevych**  
+Frontend Developer passionate about clean code, intuitive design, and building user-friendly web experiences.
+
+---
+
+## 📫 Connect with Me
+
+🔗 LinkedIn  
+https://www.linkedin.com/in/nataliia-litskevych  
+
+💻 GitHub  
 https://github.com/NataliiaLitskevych
